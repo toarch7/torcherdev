@@ -8,5 +8,7 @@
  {"char":4,"bskin":0,"startwep":67,"crown":2},
  {"char":5,"bskin":0,"startwep":82,"crown":7},
  {"char":4,"bskin":1,"startwep":47,"crown":2},
- {"char":7,"bskin":1,"startwep":83,"crown":9}
+ {"char":7,"bskin":1,"startwep":83,"crown":9},
+ {"char":11,"bskin":0,"startwep":2,"crown":7},
+ {"char":9,"bskin":1,"startwep":121,"crown":1}
 ]
