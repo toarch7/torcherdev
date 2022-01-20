@@ -1,2 +1,7 @@
-[{"char":1,"bskin":1,"startwep":81,"crown":12}, {"char":4,"bskin":1,"startwep":21,"crown":10}, {"char":13,"bskin":0,"startwep":108,"crown":1},{"char":14,"crown":6,"bskin":0,"startwep":92},
- {"char":8,"bskin":0,"startwep":92,"crown":5}]
+[
+ {"char":1,"bskin":1,"startwep":81,"crown":12},
+ {"char":4,"bskin":1,"startwep":21,"crown":10},
+ {"char":13,"bskin":0,"startwep":108,"crown":1},
+ {"char":14,"crown":6,"bskin":0,"startwep":92},
+ {"char":8,"bskin":0,"startwep":92,"crown":5}
+]
