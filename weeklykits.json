@@ -13,5 +13,7 @@
  {"char":9,"bskin":1,"startwep":121,"crown":1},
  {"char":1,"bskin":1,"startwep":51,"crown":9},
  {"char":8,"bskin":1,"startwep":48,"crown":5},
- {"char":8,"bskin":0,"startwep":125,"crown":5}
+ {"char":8,"bskin":0,"startwep":125,"crown":5},
+ {"char":5,"bskin":1,"startwep":53,"crown":7},
+ {"char":7,"bskin":0,"startwep":85,"crown":2}
 ]
