@@ -1,4 +1,4 @@
-﻿{
+{
 	"eng": {
 		"chooseCard": "Choose a card to add to your progression.",
 		"reroll": "Reroll",
