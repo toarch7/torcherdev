@@ -33,5 +33,6 @@
  {"char":12,"bskin":1,"startwep":60,"crown":9},
  {"char":12,"bskin":0,"startwep":54,"crown":2},
  {"char":4,"bskin":1,"startwep":35,"crown":2},
- {"char":11,"bskin":0,"startwep":86,"crown":6}
+ {"char":11,"bskin":0,"startwep":86,"crown":6},
+ {"char":2,"bskin":1,"startwep":104,"crown":6}
 ]
