@@ -40,5 +40,7 @@
  {"char":5,"bskin":1,"startwep":119,"crown":2},
  {"char":5,"bskin":0,"startwep":35,"crown":9},
  {"char":5,"bskin":0,"startwep":11,"crown":7},
- {"char":4,"bskin":1,"startwep":95,"crown":2}
+ {"char":4,"bskin":1,"startwep":95,"crown":2},
+ {"char":4,"bskin":0,"startwep":107,"crown":7},
+ {"char":14,"bskin":0,"startwep":111,"crown":13}
 ]
