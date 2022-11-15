@@ -2,5 +2,7 @@
   "version": 2520,
   "versionName": "b2.5.2",
   "thronebutt": true,
-  "seedOffset": 0
+  "seedOffset": 0,
+  
+  "te_version": 1
 }
