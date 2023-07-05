@@ -30,4 +30,4 @@ jobs:
           git config --global user.name "toncho_"
           git add dailydata.json
           git commit --allow-empty -m "test!"
-          git push https://toarch7:${{ secrets.API_TOKEN_GITHUB }}@github.com/toarch7/p-bot
+          git push https://toarch7:${{ secrets.API_TOKEN_GITHUB }}@github.com/toarch7/torcherdev
