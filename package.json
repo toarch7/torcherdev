@@ -1,0 +1,11 @@
+{
+  "name": "torcherdev",
+  "version": "1.0.0",
+  "description": "Various automatizations of stuff I'm working on.",
+  "main": "index.js",
+  "scripts": {
+    "update": "node update.js"
+  },
+  "author": "toncho_",
+  "license": "ISC"
+}

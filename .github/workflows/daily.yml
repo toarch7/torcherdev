@@ -1,0 +1,33 @@
+name: Update dailydata.json
+run-name: I used to do this manually.
+
+on:
+  chedule:
+    - cron: "0 0 * * *"
+  push: #test
+    branches:
+      - main
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version:
+          - 18.x
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm run update
+      - name: Push changes
+        run: |
+          git config --global user.email "toncho.dev4@gmail.com"
+          git config --global user.name "toncho_"
+          git add dailydata.json
+          git commit --allow-empty -m "test!"
+          git push https://toarch7:${{ secrets.API_TOKEN_GITHUB }}@github.com/toarch7/p-bot
