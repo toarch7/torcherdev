@@ -2,7 +2,7 @@ name: Update dailydata.json
 run-name: I used to do this manually.
 
 on:
-  chedule:
+  schedule:
     - cron: "0 0 * * *"
   push: #test
     branches:
