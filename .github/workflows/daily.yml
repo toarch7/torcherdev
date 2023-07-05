@@ -4,9 +4,6 @@ run-name: I used to do this manually.
 on:
   schedule:
     - cron: "0 0 * * *"
-  push: #test
-    branches:
-      - main
 
 jobs:
   Update:
@@ -29,5 +26,5 @@ jobs:
           git config --global user.email "toncho.dev4@gmail.com"
           git config --global user.name "toncho_"
           git add dailydata.json
-          git commit --allow-empty -m "test!"
+          git commit --allow-empty -m "Update dailydata.json"
           git push https://toarch7:${{ secrets.API_TOKEN_GITHUB }}@github.com/toarch7/torcherdev
