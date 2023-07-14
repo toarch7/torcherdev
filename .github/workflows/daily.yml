@@ -3,7 +3,7 @@ run-name: Update dailies
 
 on:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "0 20 * * *"
 
 jobs:
   Update:
