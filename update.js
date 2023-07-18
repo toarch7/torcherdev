@@ -1,13 +1,8 @@
 const MAX_VALUE = Math.pow(2, 31) - 1;
-
-process.env.API_URL = 12345;
-
 const API_URL = process.env.API_URL;
 
 const axios = require("axios");
 const fs = require("fs");
-
-console.log(process.env);
 
 
 let data = {
