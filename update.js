@@ -22,11 +22,11 @@ if (API_URL) {
             
             let data = {
                 char: parseInt(loadout.char),
-                crown: parseInt(loadout.char),
-                bskin: parseInt(loadout.char),
-                startwep: parseInt(loadout.char),
+                crown: parseInt(loadout.crown),
+                bskin: parseInt(loadout.bskin),
+                startwep: parseInt(loadout.startwep),
                 
-                seed: parseInt(loadout.char)
+                seed: parseInt(loadout.seed)
             }
             
             fs.writeFileSync("weeklydata.json", JSON.stringify(data));
