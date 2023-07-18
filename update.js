@@ -7,7 +7,7 @@ const API_URL = process.env.API_URL;
 const axios = require("axios");
 const fs = require("fs");
 
-console.log(API_URL);
+console.log(process.env);
 
 
 let data = {
