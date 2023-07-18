@@ -4,6 +4,9 @@ run-name: Update dailies
 on:
   schedule:
     - cron: "0 21 * * *"
+  push:
+    branches:
+      main
 
 jobs:
   Update:
@@ -20,11 +23,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm run update
+      - name: Run update
+        env:
+          API_URL: ${{ secrets.API_URL }}
+        run: |
+          npm install axios
+          npm run update
       - name: Push changes
         run: |
           git config --global user.email ${{ secrets.MAIL }}
           git config --global user.name "toarch7"
           git add dailydata.json
-          git commit --allow-empty -m "Update dailydata.json"
+          git add weeklydata.json
+          git commit --allow-empty -m "Daily Update"
           git push https://toarch7:${{ secrets.API_TOKEN_GITHUB }}@github.com/toarch7/torcherdev
