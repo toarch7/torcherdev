@@ -12,10 +12,12 @@ let data = {
 fs.writeFileSync("dailydata.json", JSON.stringify(data));
 
 if (API_URL) {
-    console.log(API_URL);
+    
     axios.get(API_URL + "seed/weekly")
         .then(res => {
             let loadout = res.data;
+
+            console.log(loadout);
 
             if (!loadout.active)
                 return;
