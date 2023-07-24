@@ -19,7 +19,7 @@ if (API_URL) {
 
             console.log(loadout);
 
-            if (!loadout.active || !loadout.char)
+            if (!loadout.active || loadout.active == "false" || !loadout.char)
                 return;
             
             let data = {
