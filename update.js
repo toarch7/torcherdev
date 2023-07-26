@@ -4,9 +4,14 @@ const API_URL = process.env.API_URL;
 const axios = require("axios");
 const fs = require("fs");
 
+let currentTime = new Date();
+let nextTime = new Date();
+nextTime.setDate(nextTime.getDate() + 1);
+nextTime.setHours(0, 0, 0, 0);
 
 let data = {
-    seed: Math.floor(Math.random() * MAX_VALUE)
+    seed: Math.floor(Math.random() * MAX_VALUE),
+    time: (nextTime.getTime() - currentTime.getTime()) / 1000
 }
 
 fs.writeFileSync("dailydata.json", JSON.stringify(data));
@@ -23,12 +28,15 @@ if (API_URL) {
                 return;
             
             let data = {
+                name: loadout.name,
+                
                 char: parseInt(loadout.char),
                 crown: parseInt(loadout.crown),
                 bskin: parseInt(loadout.bskin),
                 startwep: parseInt(loadout.startwep),
                 
-                seed: parseInt(loadout.seed)
+                seed: parseInt(loadout.seed),
+                time: parseInt(loadout.time),
             }
             
             fs.writeFileSync("weeklydata.json", JSON.stringify(data));
