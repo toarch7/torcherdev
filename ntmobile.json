@@ -8,5 +8,8 @@
   
   "thronebutt": true,
   "leaderboardsAllowed": true,
-  "seedOffset": 0
+  "seedOffset": 0,
+
+  "dailyGriller": false,
+  "weeklyGriller": false
 }
