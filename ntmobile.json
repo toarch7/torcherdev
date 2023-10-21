@@ -10,6 +10,6 @@
   "leaderboardsAllowed": true,
   "seedOffset": 0,
 
-  "dailyGriller": true,
+  "dailyGriller": false,
   "weeklyGriller": false
 }
