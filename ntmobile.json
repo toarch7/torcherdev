@@ -12,6 +12,6 @@
   "leaderboardsAllowed": true,
   "seedOffset": 0,
 
-  "dailyGriller": true,
-  "weeklyGriller": true
+  "dailyGriller": false,
+  "weeklyGriller": false
 }
