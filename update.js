@@ -34,6 +34,9 @@ if (API_URL) {
                 crown: parseInt(loadout.crown),
                 bskin: parseInt(loadout.bskin),
                 startwep: parseInt(loadout.startwep),
+                bstartwep: parseInt(loadout.bstartwep),
+                startcursed: parseInt(loadout.startcursed),
+                bstartcursed: parseInt(loadout.bstartcursed),
                 
                 seed: parseInt(loadout.seed),
                 time: parseInt(loadout.time),
