@@ -28,8 +28,8 @@ jobs:
           npm run update
       - name: Push changes
         run: |
-          git config --global user.email ${{ secrets.MAIL }}
-          git config --global user.name "toarch7"
+          git config --global user.email actions@github.com
+          git config --global user.name "Actions"
           git add dailydata.json
           git add weeklydata.json
           git commit --allow-empty -m "Daily Update"
