@@ -1,9 +1,9 @@
 {
-  "version": 2527,
-  "versionName": "r2.5.2",
+  "version": 2616,
+  "versionName": "v2.6.1",
   
   "versionBeta": 2616,
-
+  
   "updateURL": "https://toncho.itch.io/nuclear-throne-mobile",
   
   "versionTE": 1,
@@ -11,7 +11,7 @@
   "thronebutt": true,
   "leaderboardsAllowed": true,
   "seedOffset": 0,
-
+  
   "dailyGriller": false,
   "weeklyGriller": false
 }
